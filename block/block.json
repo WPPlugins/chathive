@@ -1,0 +1,18 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "chathive/chat",
+	"version": "1.0.0",
+	"title": "ChatHive Chat",
+	"category": "widgets",
+	"icon": "format-chat",
+	"description": "Shows the ChatHive chat on this page. Use it when the chat is set to appear only where you place it.",
+	"keywords": [ "chat", "chatbot", "ai", "chathive" ],
+	"textdomain": "chathive",
+	"supports": {
+		"html": false,
+		"multiple": false,
+		"reusable": false
+	},
+	"editorScript": "file:./editor.js"
+}
